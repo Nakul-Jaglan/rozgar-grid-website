@@ -76,7 +76,8 @@ export default function Footer() {
                 Get in Touch
               </a>
               <a
-                href="#"
+                href="/report.pdf"
+                download
                 className="group inline-flex items-center justify-center gap-2.5 px-8 py-4 bg-transparent text-white text-[15px] font-semibold rounded-full border border-white/20 hover:border-white/40 transition-all duration-300"
               >
                 Download Report
