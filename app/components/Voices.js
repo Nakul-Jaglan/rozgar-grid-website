@@ -9,13 +9,13 @@ const testimonials = [
     quote:
       "No one told us about e-Shram, about health insurance\u2014We have cards, but we have no idea how to use them.",
     author: "Female Factory Worker",
-    location: "Sonipat Industrial Area",
+    location: "Vadodara",
   },
   {
     quote:
       "The night I lost my husband to a factory accident; I received fifty thousand rupees... How is that compensation for a lost life?",
     author: "Widow, Daily Wage Worker",
-    location: "Sonipat District",
+    location: "Vadodara",
   },
   {
     quote:
@@ -32,7 +32,7 @@ export default function Voices() {
   return (
     <section id="voices" className="relative py-32 lg:py-40 overflow-hidden" ref={ref}>
       {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-b from-warm-white via-cream/30 to-warm-white" />
+      <div className="absolute inset-0 bg-linear-to-b from-warm-white via-cream/30 to-warm-white" />
 
       {/* Decorative quote marks */}
       <div className="absolute top-20 left-10 pointer-events-none select-none opacity-[0.03]">
@@ -90,7 +90,7 @@ export default function Voices() {
                 {/* Author */}
                 <div className="pt-6 border-t border-sand">
                   <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 rounded-full bg-gradient-to-br from-rishihood-red/20 to-narangi/20 flex items-center justify-center">
+                    <div className="w-10 h-10 rounded-full bg-linear-to-br from-rishihood-red/20 to-narangi/20 flex items-center justify-center">
                       <span className="text-xs font-bold text-rishihood-red">
                         {testimonial.author.charAt(0)}
                       </span>

@@ -23,13 +23,13 @@ export const viewport = {
 export const metadata = {
   title: "Rozgar Grid — Bridging the Gap for Every Worker",
   description:
-    "A research-driven initiative and digital platform connecting daily wage workers in Sonipat with government welfare schemes and verified employment.",
+    "A research-driven initiative and digital platform connecting daily wage workers in Vadodara with government welfare schemes and verified employment.",
   keywords: [
     "Rozgar Grid",
     "labor welfare",
     "daily wage workers",
-    "Sonipat",
-    "Haryana",
+    "Vadodara",
+    "Gujarat",
     "government schemes",
     "Rishihood University",
   ],

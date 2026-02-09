@@ -10,7 +10,7 @@ const steps = [
     step: "01",
     title: "Field Research",
     description:
-      "Ground-level surveys across labor chowks, construction sites, and industrial zones in Sonipat to map real worker challenges.",
+      "Ground-level surveys across labor chowks, construction sites, and industrial zones in Vadodara to map real worker challenges.",
   },
   {
     icon: Database,
@@ -42,7 +42,7 @@ export default function Process() {
   return (
     <section className="relative py-32 lg:py-40 overflow-hidden" ref={ref}>
       {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-b from-warm-white to-cream/30" />
+      <div className="absolute inset-0 bg-linear-to-b from-warm-white to-cream/30" />
 
       <div className="max-w-[1400px] mx-auto px-6 md:px-10 lg:px-16 relative z-10">
         {/* Header */}
@@ -69,7 +69,7 @@ export default function Process() {
         {/* Process steps */}
         <div className="relative">
           {/* Connecting line */}
-          <div className="hidden lg:block absolute top-1/2 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-sand to-transparent -translate-y-1/2" />
+          <div className="hidden lg:block absolute top-1/2 left-0 right-0 h-px bg-linear-to-r from-transparent via-sand to-transparent -translate-y-1/2" />
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {steps.map((step, i) => (
@@ -88,7 +88,7 @@ export default function Process() {
                 <div className="relative z-10 w-20 h-20 mx-auto mb-8 rounded-2xl bg-white border border-sand/80 flex items-center justify-center group-hover:border-rishihood-red/20 group-hover:shadow-lg group-hover:shadow-rishihood-red/5 transition-all duration-500">
                   <step.icon className="w-8 h-8 text-rishihood-red" />
                   {/* Step badge */}
-                  <div className="absolute -top-3 -right-3 w-8 h-8 rounded-full bg-gradient-to-br from-rishihood-red to-narangi flex items-center justify-center">
+                  <div className="absolute -top-3 -right-3 w-8 h-8 rounded-full bg-linear-to-br from-rishihood-red to-narangi flex items-center justify-center">
                     <span className="text-[10px] font-bold text-white">
                       {step.step}
                     </span>

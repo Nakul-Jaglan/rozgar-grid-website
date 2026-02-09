@@ -9,7 +9,7 @@ const coreValues = [
     icon: BookOpen,
     title: "Hands-on Research",
     description:
-      "Eight weeks of immersive fieldwork, walking through construction sites and labor chowks in Sonipat to understand the real challenges workers face.",
+      "Eight weeks of immersive fieldwork, walking through construction sites and labor chowks in Vadodara to understand the real challenges workers face.",
   },
   {
     icon: Map,
@@ -32,7 +32,7 @@ export default function Mission() {
   return (
     <section id="mission" className="relative py-32 lg:py-40" ref={ref}>
       {/* Subtle background accent */}
-      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-sand to-transparent" />
+      <div className="absolute top-0 left-0 right-0 h-px bg-linear-to-r from-transparent via-sand to-transparent" />
 
       <div className="max-w-[1400px] mx-auto px-6 md:px-10 lg:px-16">
         <div className="grid lg:grid-cols-12 gap-16 lg:gap-20">
@@ -68,7 +68,7 @@ export default function Mission() {
                 <span className="text-sm font-medium text-text-primary">
                   Focus Area:{" "}
                   <span className="text-narangi font-semibold">
-                    Sonipat, Haryana
+                    Vadodara, Gujarat
                   </span>
                 </span>
               </div>
@@ -90,12 +90,12 @@ export default function Mission() {
                 className="group relative p-8 md:p-10 rounded-2xl bg-white border border-sand/80 hover:border-rishihood-red/20 transition-all duration-500 hover:shadow-xl hover:shadow-rishihood-red/5"
               >
                 {/* Number */}
-                <span className="absolute top-8 right-8 text-7xl font-heading font-bold text-deep-grey/[0.03] leading-none select-none">
+                <span className="absolute top-8 right-8 text-7xl font-heading font-bold text-deep-grey/3 leading-none select-none">
                   0{i + 1}
                 </span>
 
                 <div className="flex flex-col md:flex-row gap-6 relative z-10">
-                  <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-rishihood-red/10 to-narangi/10 flex items-center justify-center shrink-0 group-hover:from-rishihood-red/15 group-hover:to-narangi/15 transition-colors duration-500">
+                  <div className="w-14 h-14 rounded-xl bg-linear-to-br from-rishihood-red/10 to-narangi/10 flex items-center justify-center shrink-0 group-hover:from-rishihood-red/15 group-hover:to-narangi/15 transition-colors duration-500">
                     <value.icon className="w-6 h-6 text-rishihood-red" />
                   </div>
                   <div className="space-y-3">
@@ -109,7 +109,7 @@ export default function Mission() {
                 </div>
 
                 {/* Bottom accent line on hover */}
-                <div className="absolute bottom-0 left-8 right-8 h-[2px] bg-gradient-to-r from-rishihood-red to-narangi scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left rounded-full" />
+                <div className="absolute bottom-0 left-8 right-8 h-[2px] bg-linear-to-r from-rishihood-red to-narangi scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left rounded-full" />
               </motion.div>
             ))}
           </div>

@@ -113,7 +113,7 @@ export default function Footer() {
             </div>
             <div className="flex items-center gap-2 text-sm text-white/40">
               <MapPin className="w-4 h-4 text-narangi/60" />
-              <span>Sonipat, Haryana</span>
+              <span>Vadodara, Gujarat</span>
             </div>
           </div>
 

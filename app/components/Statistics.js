@@ -11,7 +11,7 @@ const stats = [
     value: "500 - 800",
     prefix: "INR ",
     suffix: "",
-    description: "Despite backbreaking labor, wages remain stagnant across construction sites in Sonipat.",
+    description: "Despite backbreaking labor, wages remain stagnant across construction sites in Vadodara.",
   },
   {
     icon: Calendar,
@@ -57,10 +57,10 @@ export default function Statistics() {
   return (
     <section id="impact" className="relative py-32 lg:py-40 bg-cream/50" ref={ref}>
       {/* Top edge */}
-      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-sand to-transparent" />
+      <div className="absolute top-0 left-0 right-0 h-px bg-linear-to-r from-transparent via-sand to-transparent" />
 
       {/* Background shape */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full bg-gradient-to-br from-rishihood-red/[0.02] to-narangi/[0.02] blur-3xl pointer-events-none" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full bg-linear-to-br from-rishihood-red/2 to-narangi/2 blur-3xl pointer-events-none" />
 
       <div className="max-w-[1400px] mx-auto px-6 md:px-10 lg:px-16 relative z-10">
         {/* Header */}
@@ -84,7 +84,7 @@ export default function Statistics() {
           </h2>
           <p className="text-lg text-text-secondary max-w-xl mx-auto">
             Data collected from field surveys across labor chowks, construction
-            sites, and factory zones in Sonipat.
+            sites, and factory zones in Vadodara.
           </p>
         </motion.div>
 
@@ -103,7 +103,7 @@ export default function Statistics() {
               className="group relative p-8 md:p-10 rounded-2xl bg-white border border-sand/80 hover:border-rishihood-red/15 transition-all duration-500 hover:shadow-xl hover:shadow-rishihood-red/5 text-center"
             >
               {/* Icon */}
-              <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-rishihood-red/8 to-narangi/8 flex items-center justify-center mx-auto mb-8">
+              <div className="w-14 h-14 rounded-xl bg-linear-to-br from-rishihood-red/8 to-narangi/8 flex items-center justify-center mx-auto mb-8">
                 <stat.icon className="w-6 h-6 text-rishihood-red" />
               </div>
 
@@ -128,7 +128,7 @@ export default function Statistics() {
               </p>
 
               {/* Bottom accent */}
-              <div className="absolute bottom-0 left-8 right-8 h-[2px] bg-gradient-to-r from-rishihood-red to-narangi scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-center rounded-full" />
+              <div className="absolute bottom-0 left-8 right-8 h-[2px] bg-linear-to-r from-rishihood-red to-narangi scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-center rounded-full" />
             </motion.div>
           ))}
         </div>

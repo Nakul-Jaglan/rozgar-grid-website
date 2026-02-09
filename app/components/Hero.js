@@ -155,7 +155,7 @@ export default function Hero() {
             >
               {[
                 { value: "8", suffix: " Weeks", label: "of Fieldwork" },
-                { value: "300", suffix: "+", label: "Workers Surveyed" },
+                { value: "150", suffix: "+", label: "Workers Surveyed" },
                 { value: "4", suffix: "", label: "Core Features" },
               ].map((stat, i) => (
                 <div key={i} className="space-y-1">

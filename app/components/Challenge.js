@@ -39,12 +39,12 @@ export default function Challenge() {
       ref={ref}
     >
       {/* Background decorative elements */}
-      <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-rishihood-red/5 to-transparent pointer-events-none" />
-      <div className="absolute bottom-0 left-0 w-1/3 h-1/2 bg-gradient-to-tr from-narangi/5 to-transparent pointer-events-none" />
+      <div className="absolute top-0 right-0 w-1/2 h-full bg-linear-to-l from-rishihood-red/5 to-transparent pointer-events-none" />
+      <div className="absolute bottom-0 left-0 w-1/3 h-1/2 bg-linear-to-tr from-narangi/5 to-transparent pointer-events-none" />
 
       {/* Large decorative text */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none select-none">
-        <span className="text-[15vw] font-heading font-black text-white/[0.02] leading-none whitespace-nowrap">
+        <span className="text-[15vw] font-heading font-black text-white/2 leading-none whitespace-nowrap">
           CHALLENGE
         </span>
       </div>
@@ -88,19 +88,19 @@ export default function Challenge() {
               }}
               className="group relative"
             >
-              <div className="relative p-8 md:p-10 rounded-2xl bg-white/[0.04] border border-white/[0.06] backdrop-blur-sm hover:bg-white/[0.07] hover:border-white/[0.12] transition-all duration-500 h-full">
+              <div className="relative p-8 md:p-10 rounded-2xl bg-white/4 border border-white/6 backdrop-blur-sm hover:bg-white/7 hover:border-white/12 transition-all duration-500 h-full">
                 {/* Top accent */}
                 <div
-                  className={`absolute top-0 left-8 right-8 h-[2px] bg-gradient-to-r ${issue.accent} rounded-b opacity-0 group-hover:opacity-100 transition-opacity duration-500`}
+                  className={`absolute top-0 left-8 right-8 h-[2px] bg-linear-to-r ${issue.accent} rounded-b opacity-0 group-hover:opacity-100 transition-opacity duration-500`}
                 />
 
                 {/* Icon */}
-                <div className="w-14 h-14 rounded-xl bg-white/[0.06] flex items-center justify-center mb-8">
+                <div className="w-14 h-14 rounded-xl bg-white/6 flex items-center justify-center mb-8">
                   <issue.icon className="w-6 h-6 text-white/70" />
                 </div>
 
                 {/* Number */}
-                <span className="text-6xl font-heading font-bold text-white/[0.03] absolute top-6 right-8 select-none">
+                <span className="text-6xl font-heading font-bold text-white/3 absolute top-6 right-8 select-none">
                   0{i + 1}
                 </span>
 
