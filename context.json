@@ -1,0 +1,107 @@
+{
+    "website_content": {
+        "metadata": {
+            "title": "Shramik - Setu Samanway",
+            "subtitle": "Advancing Labor Welfare and Access for Urban Haryana",
+            "language": "en-IN",
+            "description": "A research-driven initiative and digital platform connecting daily wage workers in Sonipat with government welfare schemes and verified employment."
+        },
+        "hero_section": {
+            "headline": "Bridging the Gap: Dignity and Security for Every Worker",
+            "subheadline": "Connecting daily wage laborers to better jobs, social security, and government support through the Rozgar Grid.",
+            "cta_primary": "Join the Initiative",
+            "cta_secondary": "Download Project Report"
+        },
+        "mission_section": {
+            "heading": "Our Mission",
+            "content": "To turn policies meant for labor welfare into real, visible change. We aim to create a system where every daily wage worker, regardless of skill level, gets fair work, on-time payments, and full access to entitled benefits.",
+            "focus_area": "Sonipat, Haryana",
+            "core_values": [
+                "Hands-on Research",
+                "Field-Informed Solutions",
+                "Technology-Enabled Access"
+            ]
+        },
+        "problem_statement": {
+            "heading": "The Challenge: Invisibility and Exclusion",
+            "description": "Daily wage laborers drive the urban economy in sectors like construction and manufacturing but face uncertain job conditions and inconsistent wages.",
+            "key_issues": [
+                {
+                    "title": "Fragmented Delivery",
+                    "text": "Policies exist, but complex registration and low awareness prevent them from reaching the ground level."
+                },
+                {
+                    "title": "Digital Divide",
+                    "text": "Many workers do not know about platforms like e-Shram or how to use them despite owning smartphones."
+                },
+                {
+                    "title": "Informal Operations",
+                    "text": "Contractors often operate informally, leading to wage theft and lack of safety nets."
+                }
+            ]
+        },
+        "solution_section": {
+            "product_name": "Rozgar Grid",
+            "tagline": "A vernacular, voice-enabled bridge for worker welfare",
+            "description": "A WhatsApp-based bot that connects laborers directly to verified jobs and eligible government schemes, bypassing complex portals.",
+            "features": [
+                {
+                    "feature_name": "Vernacular Voice Bot",
+                    "details": "Uses Hinglish prompts and voice notes to overcome literacy barriers."
+                },
+                {
+                    "feature_name": "Welfare Navigator",
+                    "details": "Dynamically recommends schemes (like PMJAY, BOCW) and assists with claims."
+                },
+                {
+                    "feature_name": "Gig Job Hub",
+                    "details": "Connects local contractors and MSMEs to verified workers for transparent hiring."
+                },
+                {
+                    "feature_name": "Trusted Network",
+                    "details": "Supported by NGOs and field partners to validate jobs and handle grievances."
+                }
+            ]
+        },
+        "voices_from_ground": {
+            "heading": "Voices from the Ground",
+            "testimonials": [
+                {
+                    "quote": "No one told us about e-Shram, about health insurance—We have cards, but we have no idea how to use them.",
+                    "author": "Female Factory Worker"
+                },
+                {
+                    "quote": "The night I lost my husband to a factory accident; I received fifty thousand rupees... How is that compensation for a lost life?",
+                    "author": "Widow, Daily Wage Worker"
+                },
+                {
+                    "quote": "New workers often leave just for ₹10 more somewhere else... But my old team has been with me for over 7 years.",
+                    "author": "Labour Contractor, Rishihood University Site"
+                }
+            ]
+        },
+        "statistics_impact": {
+            "heading": "The Reality in Numbers",
+            "stats": [
+                {
+                    "label": "Average Daily Wage (Construction)",
+                    "value": "₹500 - ₹800"
+                },
+                {
+                    "label": "Work Days per Month",
+                    "value": "~26 days"
+                },
+                {
+                    "label": "Awareness Gap",
+                    "value": "Only 3 out of surveyed workers had Ayushman cards; most unaware of usage."
+                }
+            ]
+        },
+        "footer": {
+            "project_team": "A student-led initiative under the guidance of Ms. Puja and Shri Jigar Inamdar Sir.",
+            "institution": "Rishihood University",
+            "context": "Conducted over 8 weeks of fieldwork, policy mapping, and contractor surveys.",
+            "contact_cta": "Partner with us to transform urban labor welfare."
+        }
+    }
+}

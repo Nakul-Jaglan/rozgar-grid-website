@@ -1,0 +1,69 @@
+{
+  "brand_identity": {
+    "philosophy": {
+      "tagline_theme": "#ApproachingRishihood",
+      "core_concept": "A community devoted to teaching, practicing, and enabling human development in a sustainable and balanced way to create 'Rishi-leaders'."
+    },
+    "vision": "To create a nation that embodies 'rishihood' by tapping into timeless wisdom and human potential to provide a meaningful alternative resting on excellence, wellbeing, and joyful existence.",
+    "mission": "Education that creates 'rishi-leaders' by developing three fundamental attributes: the desire to learn (jigyasa), the courage to act (chikirsha), and the joy in being (ananda).",
+    "characteristics": [
+      "Innovative: Embracing technology and reinventing education.",
+      "Indic: Taking wisdom from ancient Indian scriptures.",
+      "Empowering: Giving students the knowledge to change the world.",
+      "Impactful: Embracing and encouraging new ideas.",
+      "Excitement: Bold, creative, and spirited learning.",
+      "Inspiring: Connecting and nurturing learners' leadership instincts."
+    ],
+    "expression": {
+      "youthful": "Optimistic, excited, and energetic but grounded.",
+      "contemplating": "Encouraging introspection without being overly serious.",
+      "culturally_rooted": "Reflecting cultural heritage and Indic civilization wisdom while remaining open-minded.",
+      "ethical": "Grounded, responsible, and trustworthy without being strict."
+    }
+  },
+  "visual_elements": {
+    "logo": {
+      "description": "Features a 'crest' symbolizing holistic learning and a central 'r' conveying movement and progress.",
+      "primary_colors": [
+        "Rishihood Red",
+        "Orange",
+        "Deep Grey"
+      ],
+      "usage_rules": {
+        "clear_space": "Minimum clear space defined by the 'Double O' rule.",
+        "minimum_size": "1 inch for print or 200 pixels for screen."
+      }
+    },
+    "color_palette": {
+      "primary": [
+        {
+          "name": "Rishihood Red",
+          "values": "HEX #B20E38, C16 M100 Y79 K7",
+          "symbolism": "Strength, Passion, Determination"
+        },
+        {
+          "name": "Narangi (Orange)",
+          "values": "HEX #CC5C2F, C9 M81 Y100 K1",
+          "symbolism": "Warm, Inviting, Creative, Enthusiastic"
+        }
+      ]
+    },
+    "typography": {
+      "primary_font": "Adobe Garamond (used for headlines to convey elegance, tradition, and history).",
+      "secondary_font": "Montserrat (used for sub-headlines and body text to convey energy and innovation)."
+    },
+    "graphic_tools": {
+      "patterns": [
+        "Campus Pattern",
+        "Indic Pattern",
+        "University Red Background"
+      ],
+      "elements": [
+        "Rishihood 'r' Watermark: Used at 30% opacity in white.",
+        "Rishihood Crest: Used for watermarks, imagery framing, and abstract background formations.",
+        "Rishihood Swirl: Used for logo placement on busy backgrounds or as a design element for text visibility.",
+        "Rishihood Curve: A rectangular box with one curved corner used to emphasize school names."
+      ]
+    }
+  }
+}
